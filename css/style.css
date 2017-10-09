@@ -1,0 +1,205 @@
+body, html {
+    height: 100%;
+}
+
+div{
+  display: block;
+}
+.main { 
+    /* The image used */
+    background-image: url(https://static.pexels.com/photos/436775/pexels-photo-436775.jpeg);
+    /* Full height */
+    height: 665px; 
+
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:  center center;
+}
+
+
+h1,h2,h3,p{
+  color:white;
+}
+
+
+p{
+  font-family:'Montserrat', sans-serif;
+  font-size:16px;
+  font-weight:lighter;
+}
+
+ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+li{
+  font-family:'Lato', sans-serif;
+  font-size:20px;
+  align:left;
+}
+
+
+li.sub-web::before {
+  content: "• ";
+  color: red;
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: #ccc;
+  color:white;
+}
+
+#intro{
+  padding-top:250px;
+}
+
+#intro h1{
+  color:white;
+}
+.introduce{
+  padding-bottom: 50px;
+  margin-bottom:50px;
+}
+
+.project-icon{
+  position:relative;
+  width:80%;
+  align:center;
+}
+
+.work{
+  align:center;
+}
+
+#portofolio{
+  padding:50px;
+  color:#96989b;
+}
+
+#portofolio p{
+  color:#96989b;
+}
+#portofolio .btn:hover{
+  color:white;
+}
+#skills{
+  background-color:#f2f3f4;
+  padding: 50px;
+}
+
+#skills p{
+  color: #adafb2;
+}
+
+#skills h1,h2,h3{
+  color: #2c2c2d;
+}
+
+#sub-footer{
+  background-color:#ab47bc;
+  padding: 100px;
+}
+
+#sub-footer .btn{
+  border-color:black;
+  color:black;
+}
+
+#sub-footer .btn:hover{
+  background-color:black;
+  color:#ab47bc;
+}
+
+.footer{
+  background-color:#424242;
+  padding:50px;
+}
+
+div h3{
+  color:black;
+}
+
+.btn{
+  border-color:#ab47bc;
+  color:#ab47bc;
+  font-family:'Montserrat', sans-serif;
+}
+
+.btn:hover{
+  border-color:#ab47bc;
+  background-color:#ab47bc;
+  color:black;
+}
+
+.text-primary {
+    color: #ab47bc!important;
+}
+footer p{
+  font-family:'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+/*Social Icon */
+.social {
+   text-align: center;
+   float: none;
+   width: 100%;
+ }
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #616161;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+.social .fa-twitter:hover {
+    background: #00ABE3;
+}
+.social .fa-instagram:hover {
+    background: #375989;
+}
+.social .fa-linkedin:hover {
+    background: #0077B5;
+}
+.social .fa-github:hover {
+    background:#333333;
+}
