@@ -431,13 +431,8 @@ img.nap-rounded{
     margin-top: 2rem;
     margin-bottom: 0rem;
   }
-}
-
-.hidden-xs{
-    display:block
-}
-@media screen and (max-width: 767) {
-    .hidden-xs {
+  .hidden-xs {
      display: none;
     }
 }
+
